@@ -2,29 +2,29 @@ body {
   background-color: rgb(240, 240, 240);
 }
 
-.container.header {
-  width: 100%;
-}
-
 .container.profile {
   height: auto auto;
   margin: 20px 0;
 }
 
+.row.row-name {
+  background-color: rgb(101, 145, 88);
+  color: white;
+}
+
 hr {
-  border-top: 1px solid red;
+  border-top: 1px solid rgba(0, 0, 0, 0.24);
   margin: 10px 0;
 }
 
 .img-fluid.profile {
-  margin: 20px 20px;
-  width: 400px;
+  margin: 10px 10px;
+  width: 350px;
   float: left;
 }
 
 .navbar {
-  padding: 0;
-  margin: 0 0;
+  margin: 0 auto;
 }
 
 .name {
