@@ -2,23 +2,21 @@ body {
   background-color: rgb(240, 240, 240);
 }
 
-.container.profile {
-  height: auto auto;
-  margin: 20px 0;
-  clear: both;
+.row-name {
+  background-color: rgb(101, 145, 88);
 }
 
-.row.row-name {
-  background-color: rgb(101, 145, 88);
+.name {
+  text-align: center;
+  margin: 20px;
   font-family: serif;
   font-weight: bolder;
   font-size: 30px;
   color: white;
 }
 
-.row.row-color {
-  background-color: rgb(101, 145, 88);
-  height: 10px;
+.navbar.navbar-expandr {
+  margin-bottom: 20px;
 }
 
 .navbar {
@@ -27,13 +25,15 @@ body {
   padding-bottom: 0;
 }
 
-.navbar.navbar-expandr {
-  margin-bottom: 20px;
+.container.profile {
+  height: auto auto;
+  margin: 20px 0;
+  clear: both;
 }
 
-.name {
-  text-align: center;
-  margin: 20px;
+.about-title {
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 hr {
@@ -48,9 +48,13 @@ hr {
   float: left;
 }
 
-.about-title {
-  margin-top: 20px;
-  margin-bottom: 10px;
+footer {
+  
+}
+
+.row.row-color {
+  background-color: rgb(101, 145, 88);
+  height: 10px;
 }
 
 .copyright {
