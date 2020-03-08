@@ -14,13 +14,26 @@ body {
   font-weight: bolder;
   font-size: 30px;
   color: white;
-  width: 100%;
-  float: left;
 }
 
 .row.row-color {
   background-color: rgb(101, 145, 88);
   height: 10px;
+}
+
+.navbar {
+  margin: 0 auto;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar.navbar-expandr {
+  margin-bottom: 20px;
+}
+
+.name {
+  text-align: center;
+  margin: 20px;
 }
 
 hr {
@@ -33,23 +46,6 @@ hr {
   margin-right: 15px;
   width: 350px;
   float: left;
-}
-
-.navbar {
-  margin: 0 auto;
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
-.navbar.navbar-expandr {
-  margin-bottom: 20px;
-  float: right;
-  width: 100%;
-}
-
-.name {
-  text-align: center;
-  margin: 20px;
 }
 
 .about-title {
