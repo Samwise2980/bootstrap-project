@@ -4,21 +4,15 @@ body {
 
 .row.row-name {
   background-color: rgb(101, 145, 88);
+}
+
+.name {
+  text-align: center;
+  margin: 20px;
+  color: white;
   font-family: serif;
   font-weight: bolder;
   font-size: 30px;
-  color: white;
-}
-
-.row.row-color {
-  background-color: rgb(101, 145, 88);
-  height: 10px;
-}
-
-.navbar {
-  margin: 0 auto;
-  padding-top: 0;
-  padding-bottom: 0;
 }
 
 .navbar.navbar-expandr {
@@ -27,7 +21,18 @@ body {
   width: 100%;
 }
 
-.name {
-  text-align: center;
+.navbar {
+  margin: 0 auto;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.row.row-color {
+  background-color: rgb(101, 145, 88);
+  height: 10px;
+}
+
+.copyright {
   margin: 20px;
+  text-align: center;
 }

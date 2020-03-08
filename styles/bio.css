@@ -2,13 +2,17 @@ body {
   background-color: rgb(240, 240, 240);
 }
 
+.container.header {
+  max-width: 100%;
+}
+
 .row-name {
   background-color: rgb(101, 145, 88);
 }
 
 .name {
   text-align: center;
-  margin: 20px;
+  background-color: rgb(101, 145, 88);
   font-family: serif;
   font-weight: bolder;
   font-size: 30px;
@@ -48,10 +52,6 @@ hr {
   float: left;
 }
 
-footer {
-  
-}
-
 .row.row-color {
   background-color: rgb(101, 145, 88);
   height: 10px;
@@ -62,4 +62,58 @@ footer {
   text-align: center;
 }
 
+@media screen and (max-width: 980px) {
 
+  body {
+    background-color: yellow;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  body {
+    background-color: violet;
+  }
+
+  .row-name {
+    background-color: rgb(101, 145, 88);
+    float: left;
+  }
+  
+  .name {
+    text-align: center;
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+  }
+  
+  .navbar.navbar-expandr {
+    margin-bottom: 20px;
+    float: right;
+  }
+  
+  .navbar {
+    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    background-color: tomato;
+  }
+
+  .col {
+    flex-basis: auto;
+  }
+
+  .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+}
