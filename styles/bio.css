@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+.container.header {
+  width: 100%;
+}
+
+.container.profile {
+  height: auto auto;
+  margin: 20px 0;
+}
+
+hr {
+  border-top: 1px solid red;
+  margin: 10px 0;
+}
+
+.img-fluid.profile {
+  margin: 20px 20px;
+  width: 400px;
+  float: left;
+}
+
+.navbar {
+  padding: 0;
+  margin: 0 0;
+}
+
+.name {
+  text-align: center;
+  margin: 20px;
+}
+
+.about-title {
+  margin: 20px;
+}
+
+.copyright {
+  margin: 20px;
+  text-align: center;
+}
+
+
