@@ -3,20 +3,20 @@
 <head>
   
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/bio.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
 
 </head>
 
 <body>
 
-  <header>
+  <header class="container-fluid header">
 
-    <section class="row row-name">
+    <section class="row bg-light">
 
-      <section class="col">
+      <section class="col-sm-4 name">
 
         <p class="name">
           
@@ -26,21 +26,66 @@
 
       </section>
 
-    </section>
+      <section class="col-sm-8">
 
-    <nav class="navbar navbar-expand navbar-light bg-light">
-      <div class="navbar" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link" href="index.html">About</a>
-          <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-          <a class="nav-item nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a>
-        </div>
-      </div>
-    </nav>
+        <nav class="navbar navbar-expand navbar-light">
+          <div class="navbar" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="index.html">About</a>
+              <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+              <a class="nav-item nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+            </div>
+          </div>
+        </nav>
+
+      </section>
+
+    </section>
 
   </header>
 
-  <section class="container">
+  <section class="container contact-form bg-white">
+
+    <section class="row">
+        
+      <section class="col">
+        
+        <h4 class="about-title">About Me</h4>
+      
+      </section>
+      
+    </section>
+
+    <hr>
+
+    <section class="row">
+
+      <section class="col-md">
+
+        <form>
+
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Name</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+          </div>
+          
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="example@gmail.com">
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="9"></textarea>
+          </div>
+
+        </form>
+
+        <input class="btn btn-primary submit" type="submit" value="Submit">
+
+      </section>
+
+    </section>
 
   </section>
 
@@ -53,7 +98,7 @@
         <p>
 
           <!-- empty -->
-          
+
         </p>
 
       </sectiion>

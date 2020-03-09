@@ -30,6 +30,7 @@ body {
 .container.profile {
   height: auto auto;
   margin: 20px 0;
+  padding: 10px 10px;
   clear: both;
 }
 
@@ -50,6 +51,17 @@ hr {
   float: left;
 }
 
+.container.contact-form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.btn.btn-primary.submit {
+  background-color: rgb(101, 145, 88);
+  border: rgb(101, 145, 88);
+}
+
 .row.row-color {
   background-color: rgb(101, 145, 88);
   height: 10px;
@@ -67,14 +79,12 @@ hr {
     float: left;
   }
 
-
   .navbar {
     margin: 0 auto;
     padding-top: 5px;
     padding-bottom: 0;
     float: right;
   }
-
 
 }
 
@@ -85,8 +95,6 @@ hr {
     float: left;
   }
 
-  
-  
   .name {
     text-align: center;
     font-family: serif;
@@ -137,4 +145,5 @@ hr {
     padding-left: 0;
     padding-right: 0;
   }  
+
 }
