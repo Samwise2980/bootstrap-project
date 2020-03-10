@@ -3,10 +3,6 @@ body {
   width: 100%;
 }
 
-header {
-  max-width: 100%;
-}
-
 .name {
   text-align: center;
   background-color: rgb(101, 145, 88);
